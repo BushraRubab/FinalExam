@@ -24,4 +24,4 @@ jobs:
         run: npm install -g newman
 
       - name: Run Newman for Postman Testcases
-        run: run newman postman_testcases\Books.postman_collection.json -e postman_testcases\test.postman_environment.json
+        run: run postman_testcases\Books.postman_collection.json -e postman_testcases\test.postman_environment.json
